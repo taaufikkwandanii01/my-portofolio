@@ -15,7 +15,10 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg fixed-top bg-primary-subtle">
     <div class="container-fluid">
-      <a class="navbar-brand fw-bold text-uppercase" href="index.html">Portofolio</a>
+      <a class="navbar-brand fw-bold text-uppercase d-flex align-items-center" style="letter-spacing: 1px;" href="index.html">
+        <img src="assets/img/person-circle.svg" alt="Logo" class="rounded-circle me-2" width="32" height="32">
+        Portofolio
+      </a>
 
       <!-- Toggle button for mobile -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -33,6 +36,9 @@
             <a class="nav-link" href="#project">Project</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#sertifikat">Sertifikat</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#keterampilan">Keterampilan</a>
           </li>
           <li class="nav-item">
@@ -48,18 +54,28 @@
     <div class="row align-items-center">
       <!-- Left side: image -->
       <div class="col-md-6 mb-4 mb-md-0 text-center">
-        <img src="assets/img/profile2.jpeg" alt="Foto Taufik Wandani" class="img-fluid rounded-circle shadow w-75" style="cursor: zoom-in; max-width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#profileModal">
+        <img src="assets/img/profile2.jpeg" alt="Foto Taufik Wandani" class="img-fluid rounded-circle shadow w-75"
+          style="cursor: zoom-in; max-width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#profileModal">
       </div>
 
       <!-- Right side: text -->
       <div class="col-md-6" style="text-align: justify;">
-        <h2 class="fw-bold text-uppercase">Taufik Wandani</h2>
-        <p class="lead">Halo, saya lulusan Teknik Informatika dari Universitas Komputer Indonesia. Saat ini saya
-          berperan sebagai Junior Web Developer. Saya memiliki antusiasme tinggi di bidang pengembangan perangkat lunak, dengan semangat untuk terus belajar dan mengembangkan teknologi yang bermanfaat.</p>
-        <p class="lead">Saya memiliki pengalaman dalam pengembangan perangkat lunak melalui program magang selama dua
-          bulan di PT Dirgantara Indonesia. Selama masa magang tersebut, saya mengembangkan sebuah aplikasi berbasis web
+        <h2 class="fw-bold text-uppercase" style="letter-spacing: 1px;">Taufik Wandani</h2>
+        <p class="lead">
+          Halo, saya lulusan <strong>S1 Teknik Informatika</strong> dari <strong>Universitas Komputer
+            Indonesia</strong>. Saya telah tersertifikasi sebagai <a href="#sertifikat"
+            class="text-decoration-none fw-semibold">Junior Web Developer</a> melalui ujian dari <strong>BNSP (Badan
+            Nasional Sertifikasi Profesi)</strong>. Saya memiliki antusiasme tinggi di bidang pengembangan perangkat
+          lunak, dengan semangat untuk terus belajar dan mengembangkan teknologi yang bermanfaat.
+        </p>
+        <p class="lead">
+          Saya memiliki <strong>pengalaman</strong> dalam pengembangan perangkat lunak melalui program
+          <strong>magang</strong> selama dua
+          bulan di <strong>PT Dirgantara Indonesia.</strong> Selama masa magang tersebut, saya mengembangkan sebuah
+          aplikasi berbasis web
           yang digunakan untuk penilaian dan monitoring masa berlaku sertifikasi keterampilan karyawan di divisi
-          Aircraft.</p>
+          Aircraft.
+        </p>
         <a href="#project" class="btn btn-primary mt-3">Lihat Project</a>
       </div>
     </div>
@@ -81,7 +97,7 @@
   <section class="container my-5" id="project" style="padding-top: 100px; margin-top: -100px;">
     <div class="row">
       <div class="col text-center">
-        <h2 class="fw-bold mb-4 text-uppercase text-decoration-underline">Project</h2>
+        <h2 class="fw-bold mb-4 text-uppercase text-decoration-underline" style="letter-spacing: 1px;">Project</h2>
       </div>
     </div>
     <div class="row g-4">
@@ -124,18 +140,144 @@
     </div>
   </section>
 
+  <!-- Sertifikat Section -->
+  <section class="container my-5" id="sertifikat" style="padding-top: 100px; margin-top: -100px;">
+    <div class="row">
+      <div class="col text-center">
+        <h2 class="fw-bold mb-4 text-uppercase text-decoration-underline" style="letter-spacing: 1px;">Sertifikat</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center g-3">
+      <div class="col-md-12">
+        <!-- Sertifikat-->
+        <div class="card shadow-sm border-0 bg-light">
+          <div class="card-body d-flex align-items-center">
+            <i class="bi bi-award-fill fs-2 text-primary me-3"></i>
+            <div class="w-100">
+              <h6 class="fw-semibold mb-1">Junior Web Developer</h6>
+              <small class="text-muted">Badan Nasional Sertifikasi Profesi (BNSP)</small>
+              <p class="text-muted mb-1">Diterbitkan Maret 2025 &nbsp; | &nbsp; Kadaluwarsa Maret 2028</p>
+              <div class="d-flex justify-content-between align-items-center gap-3 flex-wrap">
+                <p class="mb-0">ID Kredensial: <span class="fw-medium">1565 20963 2025</span></p>
+                <a href="https://bnsp.net/sertifikat-bnsp/junior-web-developer" target="_blank"
+                  class="btn btn-outline-primary btn-sm">
+                  <i class="bi bi-box-arrow-up-right me-1"></i> Lihat Kredensial
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sertifikat-->
+        <div class="card shadow-sm border-0 bg-light mt-3">
+          <div class="card-body d-flex align-items-center">
+            <i class="bi bi-award-fill fs-2 text-primary me-3"></i>
+            <div class="w-100">
+              <h6 class="fw-semibold mb-1">CCNAv7: Introduction to Networks</h6>
+              <small class="text-muted">Cisco Networking Academy</small>
+              <p class="text-muted mb-1">Diterbitkan Mei 2023 &nbsp; | &nbsp; </p>
+              <div class="d-flex justify-content-between align-items-center gap-3 flex-wrap">
+                <p class="mb-0">ID Kredensial: <span class="fw-medium"></span></p>
+                <a href="https://www.netacad.com/courses/ccna-introduction-networks?courseLang=en-US" target="_blank"
+                  class="btn btn-outline-primary btn-sm">
+                  <i class="bi bi-box-arrow-up-right me-1"></i> Lihat Kredensial
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sertifikat-->
+        <div class="card shadow-sm border-0 bg-light mt-3">
+          <div class="card-body d-flex align-items-center">
+            <i class="bi bi-award-fill fs-2 text-primary me-3"></i>
+            <div class="w-100">
+              <h6 class="fw-semibold mb-1">CCNAv7: Switching, Routing, and Wireless Essentials</h6>
+              <small class="text-muted">Cisco Networking Academy</small>
+              <p class="text-muted mb-1">Diterbitkan Agustus 2023 &nbsp; | &nbsp; </p>
+              <div class="d-flex justify-content-between align-items-center gap-3 flex-wrap">
+                <p class="mb-0">ID Kredensial: <span class="fw-medium"></span></p>
+                <a href="https://www.netacad.com/courses/ccna-switching-routing-wireless-essentials?courseLang=en-US" target="_blank"
+                  class="btn btn-outline-primary btn-sm">
+                  <i class="bi bi-box-arrow-up-right me-1"></i> Lihat Kredensial
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sertifikat-->
+        <div class="card shadow-sm border-0 bg-light mt-3">
+          <div class="card-body d-flex align-items-center">
+            <i class="bi bi-award-fill fs-2 text-primary me-3"></i>
+            <div class="w-100">
+              <h6 class="fw-semibold mb-1">Belajar Prinsip Pemrograman SOLID</h6>
+              <small class="text-muted">Dicoding Indonesia</small>
+              <p class="text-muted mb-1">Diterbitkan Juni 2025 &nbsp; | &nbsp; Kadaluwarsa Juni 2028</p>
+              <div class="d-flex justify-content-between align-items-center gap-3 flex-wrap">
+                <p class="mb-0">ID Kredensial: <span class="fw-medium">1OP82G8JVPQK</span></p>
+                <a href="https://www.dicoding.com/certificates/1OP82G8JVPQK" target="_blank"
+                  class="btn btn-outline-primary btn-sm">
+                  <i class="bi bi-box-arrow-up-right me-1"></i> Lihat Kredensial
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sertifikat-->
+        <div class="card shadow-sm border-0 bg-light mt-3">
+          <div class="card-body d-flex align-items-center">
+            <i class="bi bi-award-fill fs-2 text-primary me-3"></i>
+            <div class="w-100">
+              <h6 class="fw-semibold mb-1">Basic Excel</h6>
+              <small class="text-muted">BISA AI Academy (PT BISA ARTIFISIAL INDONESIA)</small>
+              <p class="text-muted mb-1">Diterbitkan Mei 2024 &nbsp; | &nbsp;</p>
+              <div class="d-flex justify-content-between align-items-center gap-3 flex-wrap">
+                <p class="mb-0">ID Kredensial: <span class="fw-medium"></span></p>
+                <a href="https://bisa.ai/course/detail/Mjk0" target="_blank"
+                  class="btn btn-outline-primary btn-sm">
+                  <i class="bi bi-box-arrow-up-right me-1"></i> Lihat Kredensial
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sertifikat-->
+        <div class="card shadow-sm border-0 bg-light mt-3">
+          <div class="card-body d-flex align-items-center">
+            <i class="bi bi-award-fill fs-2 text-primary me-3"></i>
+            <div class="w-100">
+              <h6 class="fw-semibold mb-1">Membuat Design Website SEO Friendly</h6>
+              <small class="text-muted">BISA AI Academy (PT BISA ARTIFISIAL INDONESIA)</small>
+              <p class="text-muted mb-1">Diterbitkan Mei 2024 &nbsp; | &nbsp;</p>
+              <div class="d-flex justify-content-between align-items-center gap-3 flex-wrap">
+                <p class="mb-0">ID Kredensial: <span class="fw-medium"></span></p>
+                <a href="https://bisa.ai/portofolio/detail/NjQzMg" target="_blank"
+                  class="btn btn-outline-primary btn-sm">
+                  <i class="bi bi-box-arrow-up-right me-1"></i> Lihat Kredensial
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Keterampilan Section -->
   <section class="container my-5" id="keterampilan" style="padding-top: 100px; margin-top: -100px;">
     <div class="row">
       <div class="col text-center">
-        <h2 class="fw-bold mb-4 text-uppercase text-decoration-underline">Keterampilan</h2>
+        <h2 class="fw-bold mb-4 text-uppercase text-decoration-underline" style="letter-spacing: 1px;">Keterampilan</h2>
       </div>
     </div>
 
     <!-- Bagian 1: Keterampilan Pemrograman -->
     <div class="row">
       <div class="col">
-        <h5 class="fw-semibold text-primary mb-3">Keterampilan Pemrograman</h5>
+        <h5 class="fw-semibold text-primary mb-3  text-decoration-underline">Keterampilan Pemrograman</h5>
       </div>
     </div>
     <div class="row g-4 justify-content-center mb-5">
@@ -200,7 +342,7 @@
     <!-- Bagian 2: Aplikasi Otomasi Perkantoran -->
     <div class="row">
       <div class="col">
-        <h5 class="fw-semibold text-primary mb-3">Keterampilan Aplikasi Otomasi Perkantoran</h5>
+        <h5 class="fw-semibold text-primary mb-3 text-decoration-underline">Keterampilan Aplikasi Otomasi Perkantoran</h5>
       </div>
     </div>
     <div class="row g-4 justify-content-center">
@@ -219,7 +361,7 @@
   <section class="container my-5" id="cv" style="padding-top: 100px; margin-top: -100px;">
     <div class="row">
       <div class="col text-center">
-        <h2 class="fw-bold mb-4 text-uppercase text-decoration-underline">Curriculum Vitae</h2>
+        <h2 class="fw-bold mb-4 text-uppercase text-decoration-underline" style="letter-spacing: 1px;">Curriculum Vitae</h2>
         <!-- Gambar CV yang bisa diklik untuk zoom -->
         <img src="assets/img/cv.png" alt="Curriculum Vitae" class="img-fluid shadow-sm rounded"
           style="cursor: zoom-in; max-width: 100%; height: auto;" data-bs-toggle="modal" data-bs-target="#cvModal">
@@ -246,31 +388,37 @@
   </div>
 
   <!-- Footer -->
-  <footer class="bg-primary-subtle text-center text-lg-start mt-5">
-    <div class="container py-4">
-      <div class="row">
-        <div class="col-md-6 text-md-start mb-3 mb-md-0">
-          <h6 class="fw-bold">Taufik Wandani</h6>
-          <p class="mb-0">Fresh Graduate in Informatics Engineering | Junior Web Developer | Fullstack Enthusiast</p>
-        </div>
-        <div class="col-md-6 text-md-end">
-          <a href="mailto:taaufikkwandanii01@gmail.com" class="text-decoration-none me-3 text-dark">
-            <i class="bi bi-envelope-fill"></i> Email
-          </a>
-          <a href="https://www.linkedin.com/in/taufikwandani/" target="_blank"
-            class="text-decoration-none me-3 text-dark">
-            <i class="bi bi-linkedin"></i> LinkedIn
-          </a>
-          <a href="https://github.com/taaufikkwandanii01" target="_blank" class="text-decoration-none text-dark">
-            <i class="bi bi-github"></i> GitHub
-          </a>
-        </div>
+<footer class="bg-primary-subtle text-dark text-center text-md-start mt-5 border-top">
+  <div class="container py-4">
+    <div class="row align-items-center">
+      <!-- Profil Kiri -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <h5 class="fw-bold mb-1">Taufik Wandani</h5>
+        <p class="mb-0">Fresh Graduate in Informatics Engineering</p>
+        <p class="mb-0">Junior Web Developer | Fullstack Enthusiast</p>
+      </div>
+
+      <!-- Kontak Kanan -->
+      <div class="col-md-6 text-md-end">
+        <h6 class="fw-semibold mb-3">Hubungi Saya</h6>
+        <a href="mailto:taaufikkwandanii01@gmail.com" class="text-decoration-none me-3 text-dark">
+          <i class="bi bi-envelope-fill me-1"></i>Email
+        </a>
+        <a href="https://www.linkedin.com/in/taufikwandani/" target="_blank" class="text-decoration-none me-3 text-dark">
+          <i class="bi bi-linkedin me-1"></i>LinkedIn
+        </a>
+        <a href="https://github.com/taaufikkwandanii01" target="_blank" class="text-decoration-none text-dark">
+          <i class="bi bi-github me-1"></i>GitHub
+        </a>
       </div>
     </div>
-    <div class="text-center bg-secondary-subtle py-2 fw-bold">
-      &copy; 2025 Taufik Wandani
-    </div>
-  </footer>
+  </div>
+
+  <!-- Copyright -->
+  <div class="text-center bg-secondary-subtle py-2 fw-bold small">
+    &copy; 2025 Taufik Wandani
+  </div>
+</footer>
 
   <script>
     const navLinks = document.querySelectorAll('.nav-link');
